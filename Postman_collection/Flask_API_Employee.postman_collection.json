@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "f75d7ee2-1d19-42e5-a54e-056094b671dc",
+		"name": "Flask_API_Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44739989",
+		"_collection_link": "https://lunar-moon-3403246.postman.co/workspace/Vijaysai_Nunna's-Workspace~233b5b46-1998-48f4-83a9-258845dc44cf/collection/44739989-f75d7ee2-1d19-42e5-a54e-056094b671dc?action=share&source=collection_link&creator=44739989"
+	},
+	"item": [
+		{
+			"name": "Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/employees",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Employees_Bench",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/employees/bench",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"employees",
+						"bench"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Active_Projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/employees/active_projects",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"employees",
+						"active_projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Completed_projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/employees/completed_projects",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"employees",
+						"completed_projects"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
